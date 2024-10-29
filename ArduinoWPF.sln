@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArduinoWPF", "ArduinoWPF.csproj", "{288EC96D-9649-4A12-929C-A6D24D297CF0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{288EC96D-9649-4A12-929C-A6D24D297CF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{288EC96D-9649-4A12-929C-A6D24D297CF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{288EC96D-9649-4A12-929C-A6D24D297CF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{288EC96D-9649-4A12-929C-A6D24D297CF0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F59D2B1C-E5BC-4434-8FFE-97F885F76E9C}
+	EndGlobalSection
+EndGlobal
