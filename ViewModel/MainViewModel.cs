@@ -52,8 +52,6 @@ namespace ArduinoWPF
             Button1Command = new RelayCommand(OnButton1);
             Button2Command = new RelayCommand(OnButton2);
             Button3Command = new RelayCommand(OnButton3);
-            S1Command = new RelayCommand(OnS1);
-            S2Command = new RelayCommand(OnS2);
             InitializeArduinoConnection("COM3");
         }
 
@@ -66,26 +64,18 @@ namespace ArduinoWPF
         private void OnButton1()
         {
             _arduinoModel.SendCommand($"BLINK:{SelectedFrequency}");
+            LabelContent = "Нажата первая кнопка";
         }
 
         private void OnButton2()
         {
             _arduinoModel.SendCommand("PLAY_IMPERIAL_MARCH");
+            LabelContent = "Нажата вторая кнопка";
         }
 
         private void OnButton3()
         {
             _arduinoModel.SendCommand("STOP_MUSIC");
-        }
-
-        private void OnS1()
-        {
-            LabelContent = "Нажата первая кнопка";
-        }
-
-        private void OnS2()
-        {
-            LabelContent = "Нажата вторая кнопка";
         }
     }
 }
