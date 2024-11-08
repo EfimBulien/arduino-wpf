@@ -28,12 +28,6 @@
             <ComboBoxItem Content="1 sec" FontSize="16"/>
         </ComboBox>
 
-        <Button Grid.Row="2" Grid.Column="0" Content="S1" Command="{Binding S1Command}" Width="150" Height="40" 
-                Style="{StaticResource MaterialDesignOutlinedButton}" Margin="10"/>
-
-        <Button Grid.Row="2" Grid.Column="1" Content="S2" Command="{Binding S2Command}" Width="150" Height="40" 
-                Style="{StaticResource MaterialDesignOutlinedButton}" Margin="10"/>
-
         <Button Grid.Row="1" Grid.Column="0" Content="Button1" Command="{Binding Button1Command}" Width="150" Height="40" 
                 Style="{StaticResource MaterialDesignOutlinedButton}" Margin="10"/>
 
